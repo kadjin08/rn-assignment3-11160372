@@ -19,6 +19,15 @@ export default function App() {
 
       </View>
 
+      <View style={styles.searchRow}>
+        <View style={styles.searchSection}>
+          <Icon style={styles.searchIcon} name="search" size={21} color="black" backgroundColor="white"/>
+          <TextInput style={styles.input} placeholder='Search'></TextInput>
+        </View>
+        <Image source={require('./assets/icon45.jpg')} style={{ width: 45, height: 45 }} />
+        </View>
+
+
 
         </ScrollView>
   );
