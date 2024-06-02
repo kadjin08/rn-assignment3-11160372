@@ -33,6 +33,7 @@ export default function App() {
         <View>
           <Text style={{ fontSize: 28, paddingTop: 40, fontWeight:'bold'}}>Categories</Text>
         </View>
+
         <View style={styles.generalContent}>
 
           <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
@@ -154,15 +155,10 @@ export default function App() {
           </View>
 
 
-
-
-
-
-        </View>
-
         </View>
 
     </ScrollView>
+
   );
 }
 
